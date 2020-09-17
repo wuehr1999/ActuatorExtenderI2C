@@ -316,6 +316,18 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# devices_Label
+#
+DEF devices_Label L 0 40 Y Y 1 F N
+F0 "L" 0 200 60 H V C CNN
+F1 "devices_Label" 0 0 60 H V C CNN
+F2 "" -100 100 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 150 200 -150 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # devices_Led_Small
 #
 DEF devices_Led_Small D 0 10 N N 1 F N
