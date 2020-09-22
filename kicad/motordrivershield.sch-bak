@@ -1283,4 +1283,5 @@ Wire Wire Line
 Wire Wire Line
 	4600 2500 4800 2500
 NoConn ~ 2950 1200
+NoConn ~ 4800 2200
 $EndSCHEMATC

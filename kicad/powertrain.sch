@@ -1161,7 +1161,7 @@ F 3 "" H 3300 4000 50  0000 C CNN
 	1    3300 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 7050 2    50   Output ~ 0
+Text GLabel 5050 7050 2    50   Output ~ 0
 BEMF34
 Connection ~ 4650 6750
 Wire Wire Line
@@ -1169,7 +1169,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 6800 4800 6750
 Wire Wire Line
-	4800 7400 4800 7300
+	4800 7400 4800 7350
 Connection ~ 4000 7250
 Wire Wire Line
 	4000 7300 4000 7250
@@ -1210,8 +1210,6 @@ F 3 "" H 4000 7300 50  0000 C CNN
 	1    4000 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 7050 4950 7050
 Wire Wire Line
 	4650 6250 3850 6250
 Wire Wire Line
@@ -1461,7 +1459,7 @@ F 3 "" H 2000 6750 60  0000 C CNN
 	1    2000 6750
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 5500 2    50   Output ~ 0
+Text GLabel 5050 5500 2    50   Output ~ 0
 BEMF12
 Connection ~ 4650 5200
 Wire Wire Line
@@ -1469,7 +1467,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 5250 4800 5200
 Wire Wire Line
-	4800 5850 4800 5750
+	4800 5850 4800 5800
 Connection ~ 4000 5700
 Wire Wire Line
 	4000 5750 4000 5700
@@ -2092,4 +2090,106 @@ F 3 "" H 8800 5950 50  0000 C CNN
 	1    8800 5950
 	1    0    0    -1  
 $EndComp
+$Comp
+L devices:C_0603 C49
+U 1 1 5F6F6DBC
+P 4950 7200
+F 0 "C49" H 5100 7250 50  0000 C CNN
+F 1 "100nF" H 5150 7150 50  0000 C CNN
+F 2 "capacitors:C_0603" H 4950 7050 50  0001 C CNN
+F 3 "" H 4950 7200 50  0000 C CNN
+	1    4950 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C48
+U 1 1 5F7130B1
+P 4950 5650
+F 0 "C48" H 5100 5700 50  0000 C CNN
+F 1 "100nF" H 5150 5600 50  0000 C CNN
+F 2 "capacitors:C_0603" H 4950 5500 50  0001 C CNN
+F 3 "" H 4950 5650 50  0000 C CNN
+	1    4950 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C6
+U 1 1 5F72E83B
+P 2550 5750
+F 0 "C6" H 2700 5800 50  0000 C CNN
+F 1 "100nF" H 2750 5700 50  0000 C CNN
+F 2 "capacitors:C_0603" H 2550 5600 50  0001 C CNN
+F 3 "" H 2550 5750 50  0000 C CNN
+	1    2550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C18
+U 1 1 5F749F41
+P 2550 7300
+F 0 "C18" H 2700 7350 50  0000 C CNN
+F 1 "100nF" H 2750 7250 50  0000 C CNN
+F 2 "capacitors:C_0603" H 2550 7150 50  0001 C CNN
+F 3 "" H 2550 7300 50  0000 C CNN
+	1    2550 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 7200 2550 7150
+Connection ~ 2550 7150
+Wire Wire Line
+	2550 5650 2550 5600
+Connection ~ 2550 5600
+Wire Wire Line
+	4950 5550 4950 5500
+Connection ~ 4950 5500
+Wire Wire Line
+	4950 5500 5050 5500
+Wire Wire Line
+	4800 5800 4950 5800
+Wire Wire Line
+	4950 5800 4950 5750
+Connection ~ 4800 5800
+Wire Wire Line
+	4800 5800 4800 5750
+Wire Wire Line
+	4800 7050 4950 7050
+Wire Wire Line
+	4950 7100 4950 7050
+Connection ~ 4950 7050
+Wire Wire Line
+	4950 7050 5050 7050
+Wire Wire Line
+	4950 7300 4950 7350
+Wire Wire Line
+	4950 7350 4800 7350
+Connection ~ 4800 7350
+Wire Wire Line
+	4800 7350 4800 7300
+$Comp
+L power-supply:GND #PWR0142
+U 1 1 5F82F73A
+P 2550 7450
+F 0 "#PWR0142" H 2550 7200 50  0001 C CNN
+F 1 "GND" H 2555 7277 50  0000 C CNN
+F 2 "" H 2550 7450 50  0000 C CNN
+F 3 "" H 2550 7450 50  0000 C CNN
+	1    2550 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR0147
+U 1 1 5F84D103
+P 2550 5900
+F 0 "#PWR0147" H 2550 5650 50  0001 C CNN
+F 1 "GND" H 2555 5727 50  0000 C CNN
+F 2 "" H 2550 5900 50  0000 C CNN
+F 3 "" H 2550 5900 50  0000 C CNN
+	1    2550 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5900 2550 5850
+Wire Wire Line
+	2550 7450 2550 7400
 $EndSCHEMATC
