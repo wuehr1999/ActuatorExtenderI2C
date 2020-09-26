@@ -1,7 +1,6 @@
 # ActuatorExtenderI2C
 Control two DC motors and two Servos via I2C ( using an Arduino MKR )
 
-![ActuatorExtender rendering](docs/images/rendering.png)
 
 ## Features
 * Connection header for Arduino MKR
@@ -12,7 +11,5 @@ Control two DC motors and two Servos via I2C ( using an Arduino MKR )
 * Address selection jumpers
 
 ## Top Layer
-![ActuatorExtender toplayer](docs/images/toplayer.png)
 
 ## Bottom Layer
-![ActuatorExtender bottomlayer](docs/images/bottomlayer.png)
