@@ -960,17 +960,6 @@ Text Label 6300 1250 0    50   ~ 0
 IN3
 Text Label 6350 3100 0    50   ~ 0
 IN4
-$Comp
-L IC_logic:74xx08 U11
-U 1 1 5EF16DC4
-P 10100 5350
-F 0 "U11" H 10300 6037 60  0000 C CNN
-F 1 "74xx08" H 10300 5931 60  0000 C CNN
-F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10400 5200 60  0001 C CNN
-F 3 "" H 10100 5350 60  0000 C CNN
-	1    10100 5350
-	1    0    0    -1  
-$EndComp
 Text GLabel 9750 5050 0    50   Input ~ 0
 PWM1
 Text GLabel 9750 5250 0    50   Input ~ 0
@@ -2059,8 +2048,6 @@ Text Label 8300 5550 0    50   ~ 0
 EM_S
 Wire Wire Line
 	9600 6000 9800 6000
-Text Label 9600 6000 0    50   ~ 0
-EM_S
 $Comp
 L devices:R_0603 R14
 U 1 1 5F70DCF1
@@ -2192,4 +2179,17 @@ Wire Wire Line
 	2550 5900 2550 5850
 Wire Wire Line
 	2550 7450 2550 7400
+Text GLabel 9600 6000 0    50   Input ~ 0
+EM_STOP
+$Comp
+L IC_logic:74xx32 U?
+U 1 1 5F7E0FEC
+P 10250 5950
+F 0 "U?" H 10300 7215 50  0000 C CNN
+F 1 "74xx32" H 10300 7124 50  0000 C CNN
+F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10250 5950 50  0001 C CNN
+F 3 "" H 10250 5950 50  0001 C CNN
+	1    10250 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
