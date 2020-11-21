@@ -1,0 +1,154 @@
+\let\theversion=\relax
+\providecommand{\version}[1]{\renewcommand{\theversion}{#1}}
+
+\documentclass[11pt]{article}
+    \title{\textbf{Kupris Cup}}
+    \author{Andreas Weber, Jonas Wühr, Max Bielmeier}
+    \date{v0.1 - 21.11.2020}
+    
+    \addtolength{\topmargin}{-3cm}
+    \addtolength{\textheight}{3cm}
+\usepackage{amsmath}
+\usepackage{hyperref}
+%TODO create footer
+	% https://stackoverflow.com/questions/2633986/add-a-version-number-to-the-title-of-a-latex-document
+	\usepackage{soul}	% for highlighting
+
+\begin{document}
+\pagestyle{plain}
+
+\maketitle
+This Document is not yet released.\\
+Current topics are discussed in an Etherpad.
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+%\thispagestyle{empty}
+\clearpage
+
+\pagestyle{plain}
+\section{Allgemeines}
+Dieses Event wird von der \href{https://gi.de}{Gesellschaft der Informatik e.V.} veranstaltet und übernimmt dadurch uneingeschränkt deren Veranstaltungsbestimmungen\footnote{URL}.\\	%TODO implement Link
+\\
+Je Durchführung des Cups existert ein separates Regelwerk, welches sowohl auf der Website als auch dem Repository einsehbar ist.\\
+Änderungen nach \hl{der Anmeldefrist} sind nicht vorgesehen und werden bei Benachteiligung einzelner Teams hinsichtlich der Bepunktung berücksichtigt. Dies gilt sofern kein Team den Grund dieser Änderung wissentlich verschwiegen hat.\\
+\\
+\textbf{Verstöße gegen dieses Regelwerk werden mit einer Ermahnung oder Ausschluss von der Veranstaltung geahndet.}
+
+\section{Organisation}
+\subsection{Teilnahmevoraussetzung und Teamzusammensetzung}
+Ab Ankündigung des Cups können sich alle Personen, innerhalb der maximalen Gruppengröße der Gewichtsklassen, bis einschließlich 3 Wochen nach Ankündigung schriftlich dazu anmelden.\\
+Sollten sich mehr Teams als erwartet anmelden, werden lediglich die ersten Anmeldungen bestätigt.\\
+\\
+\hl{Hinweis zu Teamzusammensetzung: Moeglichkeit der Selbsteinschaetzung }
+\subsection{Anmeldeprozess}
+Innerhalb des Anmeldezeitraumes empfangen wir schriftliche Anmeldungen via E-Mail und dem Onlineformular \href{https://hg-deggendorf.gi.de}{unserer Website}.\\
+\\
+Darin müssen Teamleitung, Teammitglieder, Vorauswahl der Disziplinen, die Notwendigkeit von geliehener Hardware erwähnt werden. Zusätzlich muss jedes Team einer akademischen Einrichtung in einem Exposeé\footnote{Der Umfang sollte 250 Wörter nicht überschreiten.} Ihre Verbindung zum Autonomen Fahren schildern. Jegliche andere Teilnehmer benötigen ein einseitiges Motivationsschreiben. Diese Anmeldungen werden bestätigt, sofern zum Zeitpunkt des Erhaltens freie Plätze vergeben werden können.\\
+In dieser Rückmeldung erhalten die Teilnehmer ein GitHub\footnote{oder nach Wunsch GitHub-ähnliches}-Repository, welches am Event die einzige erlaubte Quelle für Softwareinbetriebnahme ist. Ferner werden hierbei weitere Deadlines und erste Informationen zum Ablauf des Events mitgeteilt und notfalls eine Kaution des Teams für eingeplante Fixkosten erhoben.\\
+\\
+Eine Woche vor dem Event werden die Repositories hinsichtlich Qualität und Funktionalität überprüft.\\
+Falls hierbei grobe Mängel bemerkt werden, kann das entsprechende Team vermahnt oder vom Event ausgeschlossen werden.
+\subsection{Teilnehmerkreis}
+Im Jahr 2021 können 2o Teams am Kupris Cup teilnehmen.
+Hierbei werden 10 Plätze für akademische Teams und 1 Platz für ein schulisches Team reserviert.
+Pro Institution können sich maximal 3 Teams anmelden.
+\subsection{Veranstaltungsort}
+Die Challenges werden am Campus der Technischen Hochschule Deggendorf ausgetragen.\\
+Eine Buchung der Übernachtungsmöglichkeiten erfolgt durch die Teams selbst.
+something
+\subsection{Anrechnung}
+Der Zeitaufwand je Person wird mit 5 ECTS Punkte bei voller Besetzung je Gewichtsklasse eingeplant.\\
+Sofern eine in einem Team mehr als 7 ECTS pro Person angerechnet werden, ist das Team aus der Bewertung ausgenommen.
+\hl{Hinweis zu Vorbereitungsinhalt wettbewerbsbegleitender Vorlesungen:}
+
+\section{Technische Vorgaben}
+\#Zugelassene Modelle: Startpunkt aller Teams ist das offizielle GitHub Repository des Events\footnote{\url{https://github.com/wuehr1999/ActuatorExtenderI2C}}, in dem sowohl Hardware als auch eine minimale Softwareausführung geschildert sind.\\
+Je nach Modifikation und Erweiterung dieses Autos landet ein Projekt in unterschiedlichen Gewichtsklassen. 
+Am Anreisetag und nach den Challenges werden die Bahnen zusätzlich für Prototypen und nicht genehmigte Modelle betreut.\\
+
+\section{Durchführung}
+\subsection{Gewichtsklassen}
+Abhängig von den Abweichung zum Standardmodell\footnote{siehe GitHub Repository} gibt es 3 Gewichtsklassen:
+
+\subsubsection{"Basic"}
+Erlaubt ist die Integration des Fahrtechnik-Mikroprozessors ohne Betriebssystem inklusive aller daran anschließbaren Sensoren und Aktoren.
+% der Software bis zu \hl{1.000} Lines-of-Code.\\
+Die maximale Teilnehmeranzahl beträgt 2 Personen.
+
+\subsubsection{"Software"}
+Erlaubt ist die Verwendung von 2 Mikroprozessoren (max 1 Betriebssystem) inklusive aller daran anschließbaren Sensoren und Aktoren.
+%Erlaubt sind jegliche Veränderungen und Erweiterungen der Software.\\
+Die maximale Teilnehmeranzahl beträgt 3 Personen.
+
+\subsubsection{"Monster"}
+Erlaubt sind jegliche Veränderungen, die mit einem Budget von \hl{3.000} € am Standardmodell realisiert werden können \hl{\footnote{Sonderpreise von Sponsoren werden einbezogen, sofern Kopien der Kaufbelege vor der Veranstaltung eingereicht und von der Jury als angemessen eingestuft wurden}}.\\
+Die maximale Teilnehmeranzahl beträgt 5 Personen.
+
+\subsection{Ablauf}
+Das Event findet an einem Sommerwochenende in der Nähe der TH Deggendorf statt. Es findet in jeder Wetterlage zwischen Freitag Mittag und Sonntag Mittag statt. Ein Ablaufplan wir allen angemeldeten Teilnehmern vor dem Event zugesendet.\\
+\\
+Am ersten Tag (Anreisetag) werden Hilfsmittel für letzte Veränderungen der Autos bereitgestellt und gemeinsame Veranstaltungen mit den allen Teilnehmern organisiert.\\
+\\
+Alle angekündigten Challenges werden am darauffolgenden Samstag sequentiell durchgeführt.\\
+Hierbei wird die verwendete Software durch ein Jurymitglied mit dem bereitgestelten Repository auf das Gerät geflasht. Das aktuelle Team muss jeh Streckenabschnitt ein Teammitglied benennen, welches für die Sicherheit des Gerätes verantwortlich ist und mögliche Schäden verhindern muss.
+Teams die an der aktuellen Challenge nicht teilnehmen, können sich von der Veranstaltung abmelden.\\  
+Alle Teams können hierbei an bis zu \hl{4 Challenges} teilnehmen.
+\\
+Beendet wird der Cup mit den "Scientific Talks" jedes Teams am Sonntag Morgen. Im Anschluss werden die besten Teams je Challenge und in der Gesamtbewertung gekürt.\\
+\\
+Nach dem Event werden alle Repositories des Events veröffentlicht.\\
+%TODO what about Hardware, that is not stored in some Repository ?
+
+
+\section{Disziplinen}
+An jedem Event werden 4 Disziplinen durchgeführt.\\
+Jedes Event beginnt mit einem Geschwindigkeitsrennen auf Zeit, welches nach Veranstaltungsort unterschiedlich befestigte Fahrbahnen besitzen. An zweiter Stelle wird itterativ aus einer öffentlichen Liste von Standarddisziplinen gewechselt.\\
+Ferner wird eine einmalige Challenge definiert, die sich nicht unter den Standardchallenges befindet und innerhalb der letzten 4 Austragungen einmalig ist.\\
+Zuletzt kämpfen die Teams, in der "Free Challenge", um die Programmierug des außergewöhnlichen Fahrmanövers. Dieses muss jedoch sensitiv auf externe Einflüsse sein\footnote{Bsp.: Es wird eine zusätzlich montierte Flagge in Windrichtung gewedelt.}.\\
+\\
+Die aktuellen Standardchallenges umfassen:\\
+- Route abfahren (solo, auf Zeit)
+- Route abfahren (mehrere gleichzeitig, auf Zeit)
+- Hindernisparkur (solo, auf Zeit)
+- Zyklische Route (solo, 3 Runden, auf Zeit)
+- Stuntstrecken (solo, auf Unversehrtheit)
+- Navigation nach Umgebungssymbolik (solo, auf Zeit)
+
+\section{Bewertung}
+\subsection{Voraussetzungen}
+Jede Software eines Teams muss durch Open Source Techniken erstellt werden, sodass eine Privatperson das Endprodukt rechtlich nachbauen kann und darf.
+\subsection{Punktevergabe}
+Punkte werden - durch eine Jury - innerhalb jeder Challenge\footnote, des "Scientific Talk" und für die Handhabung des Git Repositories vergeben.\\
+Die Definition dieses Schemas übernimmt der Veranstalter innerhalb der konkreten Planung jeder Challenge und gibt die Messgrundlage vor dem Event bekannt.
+\\
+\\ Die Jury setzt sich aus 2 Dozenten (sofern möglich: 1 externer Dozent), einem Moderator und zwei studentischen Helfern zusammen. Ihr Aufgabengebiet umfasst Bestrafung eines Regelverstoßes, sowie Bepunktung des Teamergebnisses.
+%TODO EFrwähnung "neutrales Mitglied" ?
+Die Startfreigabe erfolgt duch die problemlose Inbetriebnahme des Autos durch ein Jurymitglied.
+\subsection{Git Repository}
+Das nach Anmeldung zugeteilte Git Repository ist die einzig legitime Quelle für Softwareinbetriebnahmen durch die Veranstalter. Abhängig von der verwendeten Programmiersprache und der gewählten Architektur müssen die jeweiligen Paradigmen und Best-Practices angewendet werden\footnote{Dies kann von charakteristischen Verzeichnisstrukturen, Dokumentationsmuster bis hin standardmäßigen Config-Dateien und Compilierprozessen reichen.}. 
+\subsection{Siegerehrung und Gesamtwertung}
+Für die Teilnahme, bzw. den Erfolg an den Challenges werden "Achievements" an die Teams verliehen.\\
+Diese umfassen regelmäßige Teilnahme am Cup, Dominierung eines (bzw. der Mehrheit der) Challenges bis hin zu geheimen "Mystery"-Errungenschaften. 
+
+\clearpage
+\section{Maßnahmen für COVID-19}
+Da wir im aktuellen Zustand keine Aussage treffen können, ob ein Treffen dieses Ausmaßes an der THD im kommenden Sommer möglich und erwünscht ist, bitten wir um Ihr Verständnis für die notwendige Flexibilität.\\
+\\
+Flexibilität wird hierbei in der Buchung der eigenen Übernachtung benötigt, falls temporäre Maßnahmen unsere Veranstaltung um Tage/Wochen verschiebt. Auf Bitte können wir hierbei mit den Unterkunftsbetreibern Kontakt aufnehmen.\\
+\\
+Am Veranstaltungsort werden Hygienekonzepte ausgearbeitet und entsprechende Hilfsmittel bereitgestellt.\\
+
+%\clearpage
+%\section{Technische Vorgaben}
+%If you'd like to contribute to this project, here's some ideas:
+%\begin{description}
+%\addtolength{\itemindent}{0.80cm}
+%\itemsep0em 
+%\item[Development] fix bugs or add features to our C/GTK codebase
+%\item[Testing] try out the latest and report your findings
+%\end{description}
+
+\end{document}
+
