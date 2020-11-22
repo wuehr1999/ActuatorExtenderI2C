@@ -599,16 +599,16 @@ F 3 "" H 3200 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 2400 1350 2400
+	1750 1400 1350 1400
 Wire Wire Line
-	1750 2500 1350 2500
+	1750 1600 1350 1600
 Wire Wire Line
 	2950 2000 3350 2000
 Wire Wire Line
 	2950 1900 3350 1900
-Text Label 1350 2400 0    50   ~ 0
+Text Label 1350 1400 0    50   ~ 0
 ~OE_MCU
-Text GLabel 1100 2500 0    50   Input ~ 0
+Text GLabel 1100 1600 0    50   Input ~ 0
 EM_STOP
 Text Label 3200 1900 0    50   ~ 0
 SCL
@@ -1057,7 +1057,7 @@ $Comp
 L devices:Jumper_NO_Small JP9
 U 1 1 5F60D737
 P 1250 2300
-F 0 "JP9" H 1250 2393 50  0000 C CNN
+F 0 "JP9" H 1250 2250 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 1260 2240 50  0001 C CNN
 F 2 "wire_pads:SolderJumper_2mm" H 1250 2250 50  0001 C CNN
 F 3 "" H 1250 2300 50  0000 C CNN
@@ -1067,18 +1067,18 @@ $EndComp
 $Comp
 L devices:Jumper_NO_Small JP10
 U 1 1 5F61363A
-P 1250 2500
-F 0 "JP10" H 1250 2593 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1260 2440 50  0001 C CNN
-F 2 "wire_pads:SolderJumper_2mm" H 1250 2450 50  0001 C CNN
-F 3 "" H 1250 2500 50  0000 C CNN
-	1    1250 2500
+P 1250 1600
+F 0 "JP10" H 1250 1693 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1260 1540 50  0001 C CNN
+F 2 "wire_pads:SolderJumper_2mm" H 1250 1550 50  0001 C CNN
+F 3 "" H 1250 1600 50  0000 C CNN
+	1    1250 1600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1150 2300 850  2300
 Wire Wire Line
-	1150 2500 1100 2500
+	1150 1600 1100 1600
 Wire Wire Line
 	2950 1300 3100 1300
 Wire Wire Line
@@ -1190,20 +1190,20 @@ SCL
 Text Label 4550 1800 2    50   ~ 0
 SDA
 Wire Wire Line
-	6100 1900 6500 1900
+	4800 1500 4400 1500
 Wire Wire Line
 	6100 2000 6500 2000
-Text Label 6500 1900 2    50   ~ 0
+Text Label 4400 1500 0    50   ~ 0
 ~OE_MCU
 Wire Wire Line
-	6100 1800 6500 1800
+	4800 1700 4400 1700
 Text Label 1350 2300 0    50   ~ 0
 AL_MCU
-Text Label 1350 2500 0    50   ~ 0
+Text Label 1350 1600 0    50   ~ 0
 EM_MCU
 Text Label 6200 2000 0    50   ~ 0
 AL_MCU
-Text Label 6200 1800 0    50   ~ 0
+Text Label 4700 1700 2    50   ~ 0
 EM_MCU
 NoConn ~ 6100 1100
 NoConn ~ 6100 1200
@@ -1398,21 +1398,21 @@ Text Label 10250 1850 0    50   ~ 0
 SERVO0_PCA
 Text Label 10250 1950 0    50   ~ 0
 SERVO1_PCA
-Text Label 4200 1500 0    50   ~ 0
+Text Label 6700 1900 2    50   ~ 0
 SERVO0_MCU
 Wire Wire Line
-	4200 1500 4800 1500
+	6700 1900 6100 1900
 Wire Wire Line
-	4200 1700 4800 1700
-Text Label 4200 1700 0    50   ~ 0
+	6700 1800 6100 1800
+Text Label 6700 1800 2    50   ~ 0
 SERVO1_MCU
-Text Label 1150 1400 0    50   ~ 0
+Text Label 1150 2400 0    50   ~ 0
 SERVO0_MCU
 Wire Wire Line
-	1150 1400 1750 1400
+	1150 2400 1750 2400
 Wire Wire Line
-	1150 1600 1750 1600
-Text Label 1150 1600 0    50   ~ 0
+	1150 2500 1750 2500
+Text Label 1150 2500 0    50   ~ 0
 SERVO1_MCU
 $Comp
 L devices:R_0603 R55
