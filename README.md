@@ -18,3 +18,7 @@ Control two DC motors and two Servos via I2C ( using an Arduino MKR )
 ## Bottom Layer
 
 ![ActuatorExtender bottomlayer](docs/images/bottomlayer.png)
+
+## References
+
+![Arduino Library](https://github.com/wuehr1999/ActuatorExtenderI2C-Library)
