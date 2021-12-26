@@ -5,7 +5,7 @@ on:
   - push
 
 jobs:
-  general-formatting-checks:
+  kicad export:
     runs-on: setsoft/kicad_auto:latest
 
     steps:
