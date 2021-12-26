@@ -5,7 +5,7 @@ on:
   - push
 
 jobs:
-  kicad export:
+  kicad-export:
     runs-on: setsoft/kicad_auto:latest
 
     steps:
