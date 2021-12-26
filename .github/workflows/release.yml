@@ -33,7 +33,7 @@
 name: "Release"
 
 on:
-  push:
+ # push:
   release:
     types: [published]
   workflow_dispatch:
