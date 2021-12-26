@@ -1,5 +1,5 @@
 [![Preflight](https://github.com/wuehr1999/ActuatorExtenderI2C/actions/workflows/preflight.yml/badge.svg)](https://github.com/wuehr1999/ActuatorExtenderI2C/actions/workflows/preflight.yml)
-
+[![Draft](https://github.com/wuehr1999/ActuatorExtenderI2C/actions/workflows/draft.yml/badge.svg)](https://github.com/wuehr1999/ActuatorExtenderI2C/actions/workflows/draft.yml)
 [![Release](https://github.com/wuehr1999/ActuatorExtenderI2C/actions/workflows/release.yml/badge.svg)](https://github.com/wuehr1999/ActuatorExtenderI2C/actions/workflows/release.yml)
 
 # ActuatorExtenderI2C
