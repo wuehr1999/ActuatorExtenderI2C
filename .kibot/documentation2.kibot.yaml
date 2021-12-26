@@ -35,7 +35,7 @@ outputs:
       checkboxes: 'Placed'
       dnp_field: "DNP"
       name_format: 'ibom_%p_std_%d'
-      netlist_file: './driveshield.net'
+      netlist_file: '*.net'
       variant_field: 'variant'
       variants_whitelist: ''
       variants_blacklist: 'Vfull'
