@@ -58,13 +58,13 @@ jobs:
         run: echo "::set-output name=commit::$(git rev-parse --short HEAD)"
 
       # Run KiBot with the preflight script
-      - uses: INTI-CMNB/KiBot@master
-        with:
-          config: .kibot/preflight.kibot.yaml
-          dir: ${{ env.OutputFolder }}
-          schema: ${{ env.Project }}.sch
-          board: ${{ env.Project }}.kicad_pcb
-          verbose: 2
+ #     - uses: INTI-CMNB/KiBot@master
+ #       with:
+ #         config: .kibot/preflight.kibot.yaml
+ #         dir: ${{ env.OutputFolder }}
+ #         schema: ${{ env.Project }}.sch
+ #         board: ${{ env.Project }}.kicad_pcb
+ #         verbose: 2
           
       # Actually run KiBot to generate all the files.
       - name: Generate documentation files
