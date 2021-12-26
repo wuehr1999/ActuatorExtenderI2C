@@ -1,0 +1,15 @@
+name: KiCAD export
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  general-formatting-checks:
+    runs-on: setsoft/kicad_auto:latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - run: ls
