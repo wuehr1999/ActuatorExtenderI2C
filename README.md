@@ -1,3 +1,5 @@
+[![Preflight](https://github.com/wuehr1999/ActuatorExtenderI2C/actions/workflows/preflight.yml/badge.svg)](https://github.com/wuehr1999/ActuatorExtenderI2C/actions/workflows/preflight.yml)
+
 # ActuatorExtenderI2C
 Control two DC motors and two Servos via I2C ( using an Arduino MKR )
 
