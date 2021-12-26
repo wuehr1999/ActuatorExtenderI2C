@@ -1,0 +1,57 @@
+kiplot:
+  version: 1
+
+preflight:
+  run_erc: true
+  update_xml: true
+  run_drc: true
+  check_zone_fills: false
+  ignore_unconnected: false
+
+outputs:
+
+  - name: 'print_sch_pdf'
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: .
+
+  - name: 'print_front'
+    comment: "Print F.Cu+Dwgs.User"
+    type: pdf_pcb_print
+    dir: .
+    options:
+      output_name: PCB_Top.pdf
+    layers:
+      - layer: B.Cu
+      - layer: F.SilkS
+
+  - name: 'export_ibom_std'
+    comment: "Export interactive HTML Bom for the standard Version with reduced feature set"
+    type: ibom
+    dir: .
+    options:
+      blacklist: ''
+      blacklist_empty_val: false
+      checkboxes: 'Placed'
+      dnp_field: "DNP"
+      name_format: 'ibom_%p_std_%d'
+      netlist_file: './driveshield.net'
+      variant_field: 'variant'
+      variants_whitelist: ''
+      variants_blacklist: 'Vfull'
+ 
+  - name: 'export_ibom_full'
+    comment: "Export interactive HTML Bom for the full Version with complete feature set"
+    type: ibom
+    dir: .
+    options:
+      blacklist: ''
+      blacklist_empty_val: false
+      checkboxes: 'Placed'
+      dnp_field: "DNP"
+      name_format: 'ibom_%p_full_%d'
+      netlist_file: './driveshield.net'
+      variant_field: 'variant'
+      variants_whitelist: ''
+      variants_blacklist: ''
+
