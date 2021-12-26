@@ -45,12 +45,12 @@ outputs:
     type: ibom
     dir: .
     options:
-      blacklist: ''
+      blaaticklist: ''
       blacklist_empty_val: false
       checkboxes: 'Placed'
       dnp_field: "DNP"
       name_format: 'ibom_%p_full_%d'
-      netlist_file: '*.netlist'
+      netlist_file: '*.net'
       variant_field: 'variant'
       variants_whitelist: ''
       variants_blacklist: ''
