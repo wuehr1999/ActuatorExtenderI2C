@@ -6,7 +6,7 @@ on:
 
 jobs:
   kicad-export:
-    runs-on: setsoft/kicad_auto:latest
+    runs-on:ubuntu:latest
 
     steps:
       - name: Checkout repository
