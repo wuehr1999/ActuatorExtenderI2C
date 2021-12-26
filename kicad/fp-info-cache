@@ -1,330 +1,99 @@
-74728305677504
-SOT_TO
-PowerMacro_M234_NoHole
+22317385114314
+MODULE_compute
+ADAFRUIT_FEATHER_HOLES
 
-TO-50-4, Power Macro, Package Style M234
-0
-4
-4
-SOT_TO
-PowerMacro_M234_WithHole
-
-TO-50-4, Power Macro, Package Style M234
-0
-4
-4
-SOT_TO
-SC-70
-SC70 SOT323
 
 0
-3
-3
-SOT_TO
-SC-70-5
-SC70-5 SOT323-5
+28
+28
+MODULE_compute
+ARDUINO
+2
 
 0
-5
-5
-SOT_TO
-SC-70-6
-SC-70-6,
-SC-70-6,
-0
-6
-6
-SOT_TO
-SC-70-6_Handsoldering
-SC-70-6, Handsoldering,
-SC-70-6, Handsoldering,
-0
-6
-6
-SOT_TO
-SOT-23
-SOT-23, Standard
-SOT-23
-0
-3
-3
-SOT_TO
-SOT-23-5
-5-pin SOT23 package
-SOT-23-5
-0
-5
-5
-SOT_TO
-SOT-23-6
-6-pin SOT-23 package
-SOT-23-6
-0
-6
-6
-SOT_TO
-SOT-23-8
-SOT-23-8
+32
+32
+MODULE_compute
+ARDUINO_ISP
+2
 
 0
-8
-8
-SOT_TO
-SOT-23_Handsoldering
-SOT-23, Handsoldering
-SOT-23
-0
-3
-3
-SOT_TO
-SOT-143
-SOT-143
-SOT-143
-0
-4
-4
-SOT_TO
-SOT-143R_Reverse
-SOT-143R, Reverse
-SOT-143R, Reverse
-0
-4
-4
-SOT_TO
-SOT-143R_Reverse_Handsoldering
-SOT-143R, Reverse, Handsoldering,
-SOT-143, Reverse, Handsoldering,
-0
-4
-4
-SOT_TO
-SOT-143_Handsoldering
-SOT-143, Handsoldering
-SOT-143, Handsoldering
-0
-4
-4
-SOT_TO
-SOT-223
-module CMS SOT223 4 pins
-CMS SOT
-0
-4
-4
-SOT_TO
-SOT-323
-
-SMD SOT
-0
-3
-3
-SOT_TO
-SOT-353
-SOT353
+38
+38
+MODULE_compute
+ARDUINO_ISP_TOP
+2
 
 0
-5
-5
-SOT_TO
-SOT-363
-SOT353
+38
+38
+MODULE_compute
+ARDUINO_MKR
+
 
 0
-6
-6
-SOT_TO
-SOT-404
-SOT404
+28
+28
+MODULE_compute
+ARDUINO_MKR_BASEBOARD
+
 
 0
-3
-3
-SOT_TO
-SOT-428
-SOT428
+28
+28
+MODULE_compute
+ARDUINO_MKR_HOLES
+
 
 0
-3
-3
-SOT_TO
-SOT-543
-SOT-543 4 lead surface package
-SOT-543 SC-107A EMD4
+28
+28
+MODULE_compute
+ARDUINO_MKR_HOLES_PINHEADER
+Arduino MKR with pin header
+Arduino MKR with pin header
 0
-4
-4
-SOT_TO
-SOT-553
-SOT553
+28
+28
+MODULE_compute
+ARDUINO_MKR_HOLES_POGO
+Arduino MKR with Pogo pins
+Arduino MKR with Pogo pins
+0
+28
+28
+MODULE_compute
+ARDUINO_NANO_33
 
-0
-5
-5
-SOT_TO
-SOT-669_LFPAK
-LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
-LFPAK SOT-669 Power-SO8
-0
-19
-5
-SOT_TO
-SOT-669_LFPAK_ThermalVias-1
-LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
-LFPAK SOT669 Thermal Vias 0.4mm Power-SO8
-0
-65
-5
-SOT_TO
-SOT-669_LFPAK_ThermalVias-2
-LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
-LFPAK SOT669 Thermical Vias Power-SO8
+
 0
 30
-5
-SOT_TO
-SOT-886
+30
+MODULE_compute
+BeagleBoard_PocketBeagle
+PocketBeagle, https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual#71_Expansion_Header_Connectors
+PocketBeagle
+0
+72
+72
+MODULE_compute
+ESP-WROOM-02
 
 
 0
-6
-6
-SOT_TO
-SOT89-3_Housing
-SOT89-3, Housing,
-SOT89-3, Housing,
-0
-5
-3
-SOT_TO
-SOT89-3_Housing_Handsoldering
-SOT89-3, Housing, Handsoldering,
-SOT89-3, Housing, Handsoldering,
-0
-5
-3
-SOT_TO
-SOT89-5_Housing
-SOT89-5, Housing,
-SOT89-5, Housing,
-0
-9
-5
-SOT_TO
-SOT89-5_Housing_Handsoldering
-SOT89-5, Housing, Handsoldering,
-SOT89-5, Housing, Handsoldering,
-0
-9
-5
-SOT_TO
-SOT353-1
+19
+19
+MODULE_compute
+ESP32-WROOM-32
 
 
 0
-5
-5
-SOT_TO
-TO-50-3_LongPad-NoHole_Housing
+39
+39
+MODULE_compute
+come-type6-basic
 
-TO-50-3, Macro T, Package Style M236
-0
-3
-3
-SOT_TO
-TO-50-3_LongPad-WithHole_Housing
-
-TO-50-3, Macro T, Package Style M236
-0
-3
-3
-SOT_TO
-TO-50-3_ShortPad-NoHole_Housing
-
-TO-50-3, Macro T, Package Style M236
-0
-3
-3
-SOT_TO
-TO-50-3_ShortPad-WithHole_Housing
-
-TO-50-3, Macro T, Package Style M236
-0
-3
-3
-SOT_TO
-TO-50-4_LongPad-NoHole_Housing
-
-TO-50-4, Macro X, Package Style M238
-0
-4
-4
-SOT_TO
-TO-50-4_LongPad-WithHole_Housing
-
-TO-50-4, Macro X, Package Style M238
-0
-4
-4
-SOT_TO
-TO-50-4_ShortPad-NoHole_Housing
-
-TO-50-4, Macro X, Package Style M238
-0
-4
-4
-SOT_TO
-TO-50-4_ShortPad-WithHole_Housing
-
-TO-50-4, Macro X, Package Style M238
-0
-4
-4
-SOT_TO
-TO-252-2Lead
-DPAK / TO-252 2-lead smd package
-dpak TO-252
-0
-3
-3
-SOT_TO
-TO-263-3Lead
-D2PAK / TO-263 3-lead smd package
-D2PAK D2PAK-3 TO-263AB TO-263
-0
-4
-4
-SOT_TO
-TO-263-5Lead
-D2PAK / TO-263 3-lead smd package
-D2PAK D2PAK-3 TO-263AB TO-263
-0
-6
-5
-SOT_TO
-TO-263-7Lead
-D2PAK / TO-263 3-lead smd package
-D2PAK D2PAK-3 TO-263AB TO-263
-0
-8
-8
-SOT_TO
-TO-277A
-Thermal enhanced ultra thin SMD package; 3 leads; body: 5.8 x 4.3 x 0.78 mm
-TO-277A SOT-1289
-0
-3
-3
-SOT_TO
-TSOT-6-MK06A
-TSOP-6 MK06A housing 6pin
 
 0
-6
-6
-SOT_TO
-TSOT-6-MK06A_Handsoldering
-TSOP-6 MK06A housing 6pin
-
-0
-6
-6
+450
+450
