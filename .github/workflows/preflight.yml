@@ -81,4 +81,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ${{ env.Project }}-${{ steps.vars.outputs.commit }}-preflight
-          path: ${{ env.OutputFolder }}/**.txt
+          path: ${{ env.OutputFolder }}/**
