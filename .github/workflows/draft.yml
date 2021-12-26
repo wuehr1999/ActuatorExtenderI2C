@@ -33,7 +33,7 @@
 name: "Draft"
 
 on:
-  push:
+ # push:
   pull_request:
     paths:
       - ".*.sch"
