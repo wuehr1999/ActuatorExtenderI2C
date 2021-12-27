@@ -22,6 +22,15 @@ outputs:
     options:
       output_name: PCB_Top.pdf
     layers:
-      - layer: B.Cu
+      - layer: F.Cu
       - layer: F.SilkS
 
+  - name: 'print_back'
+    comment: "Print B.Cu+Dwgs.User"
+    type: pdf_pcb_print
+    dir: .
+    options:
+      output_name: PCB_Bot.pdf
+    layers:
+      - layer: B.Cu
+      - layer: B.SilkS
